@@ -5,57 +5,33 @@ css: ['pages/index.css']
 comments: false
 ---
 
-<!--<section class="banner">-->
-<!--    <div class="collection-head">-->
-<!--        <div class="container">-->
-<!--            <div class="collection-title">-->
-<!--              <h1 class="collection-header" id="sub-title"><span>{{ site.subtitle }}</span></h1>-->
-<!--                <div class="collection-info">-->
-<!--                    <span class="meta-info mobile-hidden">-->
-<!--                        <span class="octicon octicon-location"></span>-->
-<!--                        {{ site.location }}-->
-<!--                    </span>-->
-<!--                    {% if site.organization %}-->
-<!--                    <span class="meta-info">-->
-<!--                        <span class="octicon octicon-organization"></span>-->
-<!--                        <a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>-->
-<!--                    </span>-->
-<!--                    {% endif %}-->
-<!--                     <span class="meta-info">-->
-<!--                        <span class="octicon octicon-mark-github"></span>-->
-<!--                        <a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>-->
-<!--                    </span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!-- /.banner -->
-
-<section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
-    <div class="container">
-        <div class="columns">
-            <div class="column three-fourths">
-                <div class="collection-title">
-                    <h1 class="collection-header">{{ page.title }}</h1>
-                    <div class="collection-info">
-                        {% if page.date %}
-                        <span class="meta-info">
-            <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
-          </span>
-                        {% endif %}
-                        {% for cat in page.categories %}
-                        <span class="meta-info">
-            <span class="octicon octicon-file-directory"></span>
-            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
-          </span>
-                        {% endfor %}
-                    </div>
+<section class="banner">
+    <div class="collection-head">
+        <div class="container">
+            <div class="collection-title">
+              <h1 class="collection-header" id="sub-title"><span>{{ site.subtitle }}</span></h1>
+                <div class="collection-info">
+                    <span class="meta-info mobile-hidden">
+                        <span class="octicon octicon-location"></span>
+                        {{ site.location }}
+                    </span>
+                    {% if site.organization %}
+                    <span class="meta-info">
+                        <span class="octicon octicon-organization"></span>
+                        <a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>
+                    </span>
+                    {% endif %}
+                     <span class="meta-info">
+                        <span class="octicon octicon-mark-github"></span>
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </section>
+ /.banner
+
 
 <section class="container content">
     <div class="columns">
