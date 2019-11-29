@@ -103,7 +103,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: gudepeng
-    repo: note-comments
+    repo: note
     clientID: 660e7c91a01fdf9d82a5
     clientSecret: 3a8947c0a6b9acd23c6df98889512dda2534780f
 # 在使用其它评论组件时可点击显示 Disqus
