@@ -5,7 +5,7 @@ description: 打码改变世界
 keywords: Zhuang Ma, 马壮
 comments: true
 menu: 关于
-permalink: /about/
+permalink: /about
 ---
 
 ## 联系
