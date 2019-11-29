@@ -30,25 +30,26 @@ comments: false
         </div>
     </div>
 </section>
+<!-- /.banner -->
 
 
 <section class="container content">
     <div class="columns">
         <div class="column two-thirds" >
             <ol class="repo-list">
-                {% for article in paginator.articles %}
+                {% for post in paginator.posts %}
                 <li class="repo-list-item">
                     <h3 class="repo-list-name">
-                      <a href="{{ site.url }}{{ article.url }}">{{ article.title }}</a>
+                      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                     </h3>
                     <p class="repo-list-description">
-                        {{ article.excerpt | strip_html | strip }}
+                        {{ post.excerpt | strip_html | strip }}
                     </p>
                     <p class="repo-list-meta">
                         <span class="meta-info">
-                          <span class="octicon octicon-calendar"></span> {{ article.date | date: "%Y/%m/%d" }}
+                          <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
                         </span>
-                        {% for cat in article.categories %}
+                        {% for cat in post.categories %}
                         <span class="meta-info">
                           <span class="octicon octicon-file-directory"></span>
                           <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
