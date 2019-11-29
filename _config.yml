@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://gudepeng.github.io/note/
 date_format: "ordinal"
 title: 金角大王的note
 subtitle: "记录成为架构师道路上的点滴"
