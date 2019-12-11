@@ -19,8 +19,18 @@ keywords: word
 | 哨兵           | sentinel       |
 | 服务           | service        |
 | 服务器         | server         |
-| 均衡           | balanced       |
+| 一致性           | consistency       |
+| 可用性           | availability       |
+| 分区容错           | partition tolerance      |
+| 概念           | concept       |
+| 火箭           | rocket       |
+| 代理           | broker       |
+| 中心           | center       |
+| 注册           | registry       |
+| 策略           | strategy       |
+| 帮手           | helper       |
+| 调度程序           | scheduler       |
+| 注册           | registry       |
 
 
- 
- 
+
