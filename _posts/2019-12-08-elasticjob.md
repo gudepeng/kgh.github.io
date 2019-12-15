@@ -5,7 +5,7 @@ categories: elastic-job
 description: spring boot + elastic-job
 keywords: elastic-job, spring boot
 ---
->版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 
+>版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。  
 本文链接：[https://gudepeng.github.io/note/2019/12/08/elasticjob/](https://gudepeng.github.io/note/2019/12/08/elasticjob/)  
 demo样例：[https://github.com/gudepeng/demoproject/tree/master/elastic-job](https://github.com/gudepeng/demoproject/tree/master/elastic-job)
 
