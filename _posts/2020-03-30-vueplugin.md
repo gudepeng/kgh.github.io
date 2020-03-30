@@ -21,7 +21,7 @@ vue create hello-world
 ```
 [@vue/cli 4 创建项目](https://cli.vuejs.org/zh/guide/creating-a-project.html#vue-create)
 ### 3.目录文件创建
-![项目目录]](https://gudepeng.github.io/note/images/posts/2020-03-30-vueplugin/1.jpg)
+![项目目录](https://gudepeng.github.io/note/images/posts/2020-03-30-vueplugin/1.jpg)
 * build 打包时使用的脚本程序
 * examples demo项目路径
 * packages 组件目录
